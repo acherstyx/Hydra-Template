@@ -4,4 +4,5 @@
 # @Project : MM-Video
 # @File    : __init__.py
 
-from .runner import *
+from .runner import Runner
+from .runners import TrainRunner

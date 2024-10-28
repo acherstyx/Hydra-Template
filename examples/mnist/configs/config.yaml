@@ -6,7 +6,7 @@ defaults:
   - /dataset@dataset.eval: MNISTDataset
   - /model: CNN
   - /trainer: Trainer
-  - /runner: Runner
+  - /runner: TrainRunner
   - override /hydra/launcher: torchrun
 
 log:
